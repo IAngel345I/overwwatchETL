@@ -1,0 +1,44 @@
+[2026-03-10T17:10:11.837+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-10T17:10:11.873+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: overwatch2_pipeline.etl_principal scheduled__2026-03-09T00:00:00+00:00 [queued]>
+[2026-03-10T17:10:11.882+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: overwatch2_pipeline.etl_principal scheduled__2026-03-09T00:00:00+00:00 [queued]>
+[2026-03-10T17:10:11.883+0000] {taskinstance.py:2303} INFO - Starting attempt 6 of 7
+[2026-03-10T17:10:11.895+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): etl_principal> on 2026-03-09 00:00:00+00:00
+[2026-03-10T17:10:11.905+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=282) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-03-10T17:10:11.905+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'overwatch2_pipeline', 'etl_principal', 'scheduled__2026-03-09T00:00:00+00:00', '--job-id', '36', '--raw', '--subdir', 'DAGS_FOLDER/overwatch2_pipeline.py', '--cfg-path', '/tmp/tmpo5feiebn']
+[2026-03-10T17:10:11.907+0000] {standard_task_runner.py:63} INFO - Started process 283 to run task
+[2026-03-10T17:10:11.907+0000] {standard_task_runner.py:91} INFO - Job 36: Subtask etl_principal
+[2026-03-10T17:10:11.980+0000] {task_command.py:426} INFO - Running <TaskInstance: overwatch2_pipeline.etl_principal scheduled__2026-03-09T00:00:00+00:00 [running]> on host d57c35dcabbf
+[2026-03-10T17:10:12.072+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='angel' AIRFLOW_CTX_DAG_ID='overwatch2_pipeline' AIRFLOW_CTX_TASK_ID='etl_principal' AIRFLOW_CTX_EXECUTION_DATE='2026-03-09T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='6' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-03-09T00:00:00+00:00'
+[2026-03-10T17:10:12.073+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-10T17:10:12.103+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-10T17:10:12.104+0000] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/overwatch2_pipeline.py", line 160, in task_etl_principal
+    cur.execute("SELECT COUNT(*) FROM public.fact_hero_rates f JOIN public.dim_tiempo t ON t.id_tiempo = f.id_tiempo WHERE t.fecha = %s", (hoy,))
+psycopg2.errors.UndefinedTable: relation "public.fact_hero_rates" does not exist
+LINE 1: SELECT COUNT(*) FROM public.fact_hero_rates f JOIN public.di...
+                             ^
+
+[2026-03-10T17:10:12.120+0000] {taskinstance.py:1205} INFO - Marking task as UP_FOR_RETRY. dag_id=overwatch2_pipeline, task_id=etl_principal, execution_date=20260309T000000, start_date=20260310T171011, end_date=20260310T171012
+[2026-03-10T17:10:12.130+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 36 for task etl_principal (relation "public.fact_hero_rates" does not exist
+LINE 1: SELECT COUNT(*) FROM public.fact_hero_rates f JOIN public.di...
+                             ^
+; 283)
+[2026-03-10T17:10:12.162+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2026-03-10T17:10:12.187+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-10T17:10:12.190+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

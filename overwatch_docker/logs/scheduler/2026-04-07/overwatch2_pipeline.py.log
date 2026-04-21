@@ -1,0 +1,294 @@
+[2026-04-07T22:38:48.618+0000] {processor.py:161} INFO - Started process (PID=174) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:38:48.626+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:38:48.668+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:38:48.667+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:38:48.888+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:38:49.060+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:38:49.059+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:38:49.172+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:38:49.172+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:38:49.262+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.689 seconds
+[2026-04-07T22:39:19.446+0000] {processor.py:161} INFO - Started process (PID=191) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:39:19.448+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:39:19.451+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:39:19.450+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:39:19.485+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:39:19.501+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:39:19.501+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:39:19.525+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:39:19.524+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:39:19.554+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.114 seconds
+[2026-04-07T22:39:49.759+0000] {processor.py:161} INFO - Started process (PID=204) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:39:49.761+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:39:49.763+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:39:49.763+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:39:49.798+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:39:49.978+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:39:49.977+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:39:49.998+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:39:49.998+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:39:50.022+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.271 seconds
+[2026-04-07T22:40:20.283+0000] {processor.py:161} INFO - Started process (PID=209) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:40:20.284+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:40:20.287+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:40:20.286+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:40:20.322+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:40:20.370+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:40:20.370+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:40:20.400+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:40:20.399+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:40:20.428+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.152 seconds
+[2026-04-07T22:40:50.527+0000] {processor.py:161} INFO - Started process (PID=214) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:40:50.529+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:40:50.533+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:40:50.532+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:40:50.584+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:40:50.652+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:40:50.651+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:40:50.701+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:40:50.701+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:40:50.740+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.228 seconds
+[2026-04-07T22:41:20.944+0000] {processor.py:161} INFO - Started process (PID=219) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:41:20.945+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:41:20.947+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:41:20.947+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:41:20.980+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:41:20.999+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:41:20.998+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:41:21.032+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:41:21.032+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:41:21.056+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.120 seconds
+[2026-04-07T22:42:11.319+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:42:11.321+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:42:11.326+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:42:11.325+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:42:11.375+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:42:11.418+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:42:11.417+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:42:11.459+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:42:11.459+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:42:11.491+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.186 seconds
+[2026-04-07T22:42:41.702+0000] {processor.py:161} INFO - Started process (PID=173) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:42:41.704+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:42:41.710+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:42:41.710+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:42:41.779+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:42:41.804+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:42:41.803+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:42:41.847+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:42:41.846+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:42:41.878+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.189 seconds
+[2026-04-07T22:43:11.988+0000] {processor.py:161} INFO - Started process (PID=178) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:43:11.990+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:43:11.992+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:43:11.992+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:43:12.026+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:43:12.182+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:43:12.181+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:43:12.211+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:43:12.210+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:43:12.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.257 seconds
+[2026-04-07T22:43:42.346+0000] {processor.py:161} INFO - Started process (PID=183) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:43:42.347+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:43:42.350+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:43:42.349+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:43:42.387+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:43:42.432+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:43:42.432+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:43:42.462+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:43:42.462+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:43:42.494+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.155 seconds
+[2026-04-07T22:44:12.719+0000] {processor.py:161} INFO - Started process (PID=188) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:44:12.720+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:44:12.723+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:44:12.722+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:44:12.758+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:44:12.795+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:44:12.795+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:44:12.824+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:44:12.824+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:44:12.849+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.137 seconds
+[2026-04-07T22:44:42.946+0000] {processor.py:161} INFO - Started process (PID=193) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:44:42.947+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:44:42.949+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:44:42.949+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:44:42.978+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:44:43.016+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:44:43.016+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:44:43.045+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:44:43.044+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:44:43.071+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.130 seconds
+[2026-04-07T22:45:13.351+0000] {processor.py:161} INFO - Started process (PID=198) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:45:13.352+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:45:13.355+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:45:13.355+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:45:13.409+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:45:13.450+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:45:13.450+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:45:13.477+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:45:13.477+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:45:13.504+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.159 seconds
+[2026-04-07T22:45:43.733+0000] {processor.py:161} INFO - Started process (PID=203) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:45:43.736+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:45:43.739+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:45:43.738+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:45:43.778+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:45:43.804+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:45:43.803+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:45:43.838+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:45:43.838+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:45:43.867+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.139 seconds
+[2026-04-07T22:46:13.961+0000] {processor.py:161} INFO - Started process (PID=208) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:46:13.962+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:46:13.964+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:46:13.964+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:46:13.997+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:46:14.111+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:46:14.110+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:46:14.133+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:46:14.132+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:46:14.162+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.207 seconds
+[2026-04-07T22:46:44.321+0000] {processor.py:161} INFO - Started process (PID=213) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:46:44.323+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:46:44.325+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:46:44.325+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:46:44.358+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:46:44.397+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:46:44.397+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:46:44.425+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:46:44.425+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:46:44.450+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.135 seconds
+[2026-04-07T22:47:14.688+0000] {processor.py:161} INFO - Started process (PID=218) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:47:14.689+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:47:14.691+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:47:14.691+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:47:14.727+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:47:14.771+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:47:14.771+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:47:14.799+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:47:14.798+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:47:14.823+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.142 seconds
+[2026-04-07T22:47:44.923+0000] {processor.py:161} INFO - Started process (PID=223) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:47:44.924+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:47:44.927+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:47:44.926+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:47:44.969+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:47:45.013+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:47:45.013+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:47:45.039+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:47:45.039+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:47:45.064+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.148 seconds
+[2026-04-07T22:50:11.941+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:50:11.943+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:50:11.945+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:50:11.945+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:50:11.992+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:50:12.061+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:50:12.060+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:50:12.097+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:50:12.096+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:50:12.123+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.191 seconds
+[2026-04-07T22:50:42.367+0000] {processor.py:161} INFO - Started process (PID=173) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:50:42.368+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:50:42.370+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:50:42.370+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:50:42.407+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:50:42.426+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:50:42.425+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:50:42.453+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:50:42.453+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:50:42.481+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.121 seconds
+[2026-04-07T22:51:12.840+0000] {processor.py:161} INFO - Started process (PID=178) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:51:12.841+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:51:12.844+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:51:12.843+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:51:12.877+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:51:13.121+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:51:13.120+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:51:13.155+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:51:13.154+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:51:13.189+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.356 seconds
+[2026-04-07T22:51:43.429+0000] {processor.py:161} INFO - Started process (PID=183) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:51:43.430+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:51:43.432+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:51:43.432+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:51:43.460+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:51:43.495+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:51:43.494+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:51:43.519+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:51:43.519+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:51:43.546+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.122 seconds
+[2026-04-07T22:52:13.673+0000] {processor.py:161} INFO - Started process (PID=188) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:52:13.675+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:52:13.679+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:52:13.679+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:52:13.722+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:52:13.779+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:52:13.779+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:52:13.814+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:52:13.814+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:52:13.841+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.181 seconds
+[2026-04-07T22:52:43.994+0000] {processor.py:161} INFO - Started process (PID=193) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:52:43.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:52:43.997+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:52:43.997+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:52:44.032+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:52:44.072+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:52:44.071+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:52:44.100+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:52:44.100+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:52:44.130+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.143 seconds
+[2026-04-07T22:53:14.295+0000] {processor.py:161} INFO - Started process (PID=198) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:53:14.296+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:53:14.298+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:53:14.298+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:53:14.333+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:53:14.378+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:53:14.377+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:53:14.405+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:53:14.405+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:53:14.433+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.145 seconds
+[2026-04-07T22:53:44.567+0000] {processor.py:161} INFO - Started process (PID=203) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:53:44.569+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:53:44.571+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:53:44.570+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:53:44.607+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:53:44.648+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:53:44.647+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:53:44.674+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:53:44.674+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:53:44.699+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.137 seconds
+[2026-04-07T22:54:14.864+0000] {processor.py:161} INFO - Started process (PID=208) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:54:14.866+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:54:14.868+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:54:14.868+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:54:14.898+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:54:14.933+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:54:14.933+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:54:14.957+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:54:14.957+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:54:14.979+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.121 seconds
+[2026-04-07T22:54:45.146+0000] {processor.py:161} INFO - Started process (PID=213) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:54:45.148+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:54:45.152+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:54:45.151+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:54:45.189+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:54:45.236+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:54:45.235+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:54:45.270+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:54:45.269+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:54:45.299+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.166 seconds
+[2026-04-07T22:55:15.474+0000] {processor.py:161} INFO - Started process (PID=218) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:55:15.475+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:55:15.477+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:55:15.477+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:55:15.513+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:55:15.563+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:55:15.563+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:55:15.597+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:55:15.597+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:55:15.624+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.157 seconds
+[2026-04-07T22:55:45.700+0000] {processor.py:161} INFO - Started process (PID=223) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:55:45.701+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T22:55:45.704+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:55:45.704+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:55:45.736+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T22:55:45.773+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:55:45.773+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T22:55:45.798+0000] {logging_mixin.py:188} INFO - [2026-04-07T22:55:45.798+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T22:55:45.824+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.129 seconds
+[2026-04-07T23:00:00.408+0000] {processor.py:161} INFO - Started process (PID=175) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:00:00.410+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T23:00:00.414+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:00:00.413+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:00:00.458+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:00:00.532+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:00:00.531+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T23:00:00.571+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:00:00.571+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T23:00:00.597+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.197 seconds
+[2026-04-07T23:00:30.822+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:00:30.823+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T23:00:30.825+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:00:30.825+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:00:30.858+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:00:30.878+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:00:30.878+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T23:00:30.905+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:00:30.905+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T23:00:30.931+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.115 seconds
+[2026-04-07T23:01:01.057+0000] {processor.py:161} INFO - Started process (PID=185) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:01:01.058+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T23:01:01.061+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:01:01.060+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:01:01.093+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:01:01.278+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:01:01.277+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T23:01:01.301+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:01:01.301+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T23:01:01.325+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.276 seconds
+[2026-04-07T23:01:31.573+0000] {processor.py:161} INFO - Started process (PID=190) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:01:31.574+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T23:01:31.577+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:01:31.577+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:01:31.614+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:01:31.657+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:01:31.656+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T23:01:31.687+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:01:31.687+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T23:01:31.719+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.152 seconds
+[2026-04-07T23:02:01.794+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:02:01.795+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T23:02:01.799+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:02:01.798+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:02:01.833+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:02:01.872+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:02:01.872+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T23:02:01.898+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:02:01.898+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T23:02:01.928+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.143 seconds
+[2026-04-07T23:02:32.194+0000] {processor.py:161} INFO - Started process (PID=200) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:02:32.196+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T23:02:32.199+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:02:32.198+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:02:32.235+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:02:32.274+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:02:32.274+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T23:02:32.304+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:02:32.303+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T23:02:32.329+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.142 seconds
+[2026-04-07T23:03:02.437+0000] {processor.py:161} INFO - Started process (PID=205) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:03:02.438+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T23:03:02.441+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:03:02.441+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:03:02.478+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:03:02.524+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:03:02.524+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T23:03:02.554+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:03:02.554+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T23:03:02.580+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.150 seconds
+[2026-04-07T23:03:32.799+0000] {processor.py:161} INFO - Started process (PID=210) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:03:32.801+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T23:03:32.804+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:03:32.803+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:03:32.839+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:03:32.880+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:03:32.880+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T23:03:32.912+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:03:32.912+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T23:03:32.961+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.168 seconds
+[2026-04-07T23:04:03.201+0000] {processor.py:161} INFO - Started process (PID=215) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:04:03.203+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T23:04:03.206+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:04:03.205+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:04:03.236+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:04:03.272+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:04:03.272+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T23:04:03.297+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:04:03.297+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T23:04:03.319+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.130 seconds
+[2026-04-07T23:04:57.120+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:04:57.121+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T23:04:57.124+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:04:57.123+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:04:57.165+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:04:57.200+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:04:57.199+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T23:04:57.228+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:04:57.228+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T23:04:57.252+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.139 seconds
+[2026-04-07T23:05:27.391+0000] {processor.py:161} INFO - Started process (PID=173) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:05:27.392+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T23:05:27.396+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:05:27.395+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:05:27.431+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:05:27.720+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:05:27.720+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T23:05:27.749+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:05:27.749+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T23:05:27.783+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.401 seconds
+[2026-04-07T23:05:58.057+0000] {processor.py:161} INFO - Started process (PID=178) to work on /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:05:58.058+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/overwatch2_pipeline.py for tasks to queue
+[2026-04-07T23:05:58.061+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:05:58.061+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:05:58.096+0000] {processor.py:840} INFO - DAG(s) 'overwatch2_pipeline' retrieved from /opt/airflow/dags/overwatch2_pipeline.py
+[2026-04-07T23:05:58.150+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:05:58.149+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T23:05:58.186+0000] {logging_mixin.py:188} INFO - [2026-04-07T23:05:58.186+0000] {dag.py:3954} INFO - Setting next_dagrun for overwatch2_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T23:05:58.214+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/overwatch2_pipeline.py took 0.166 seconds

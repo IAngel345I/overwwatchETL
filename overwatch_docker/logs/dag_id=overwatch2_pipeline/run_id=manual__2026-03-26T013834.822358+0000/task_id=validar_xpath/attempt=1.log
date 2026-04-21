@@ -1,0 +1,31 @@
+[2026-03-26T01:38:57.591+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-26T01:38:57.624+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: overwatch2_pipeline.validar_xpath manual__2026-03-26T01:38:34.822358+00:00 [queued]>
+[2026-03-26T01:38:57.632+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: overwatch2_pipeline.validar_xpath manual__2026-03-26T01:38:34.822358+00:00 [queued]>
+[2026-03-26T01:38:57.633+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 3
+[2026-03-26T01:38:57.645+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): validar_xpath> on 2026-03-26 01:38:34.822358+00:00
+[2026-03-26T01:38:57.655+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=201) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-03-26T01:38:57.656+0000] {standard_task_runner.py:63} INFO - Started process 202 to run task
+[2026-03-26T01:38:57.654+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'overwatch2_pipeline', 'validar_xpath', 'manual__2026-03-26T01:38:34.822358+00:00', '--job-id', '492', '--raw', '--subdir', 'DAGS_FOLDER/overwatch2_pipeline.py', '--cfg-path', '/tmp/tmp2ql87ew7']
+[2026-03-26T01:38:57.657+0000] {standard_task_runner.py:91} INFO - Job 492: Subtask validar_xpath
+[2026-03-26T01:38:57.718+0000] {task_command.py:426} INFO - Running <TaskInstance: overwatch2_pipeline.validar_xpath manual__2026-03-26T01:38:34.822358+00:00 [running]> on host 12e2f54eae40
+[2026-03-26T01:38:57.806+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='angel' AIRFLOW_CTX_DAG_ID='overwatch2_pipeline' AIRFLOW_CTX_TASK_ID='validar_xpath' AIRFLOW_CTX_EXECUTION_DATE='2026-03-26T01:38:34.822358+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-26T01:38:34.822358+00:00'
+[2026-03-26T01:38:57.807+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-26T01:38:58.159+0000] {overwatch2_pipeline.py:357} INFO - ✅ XPath — heroes encontrados: 50
+[2026-03-26T01:38:58.159+0000] {overwatch2_pipeline.py:358} INFO - ─── Muestra primeros 10 heroes (XPath) ───
+[2026-03-26T01:38:58.160+0000] {overwatch2_pipeline.py:366} INFO -   XPath → ana                  win=         pick=
+[2026-03-26T01:38:58.161+0000] {overwatch2_pipeline.py:366} INFO -   XPath → anran                win=         pick=
+[2026-03-26T01:38:58.161+0000] {overwatch2_pipeline.py:366} INFO -   XPath → ashe                 win=         pick=
+[2026-03-26T01:38:58.162+0000] {overwatch2_pipeline.py:366} INFO -   XPath → baptiste             win=         pick=
+[2026-03-26T01:38:58.162+0000] {overwatch2_pipeline.py:366} INFO -   XPath → bastion              win=         pick=
+[2026-03-26T01:38:58.163+0000] {overwatch2_pipeline.py:366} INFO -   XPath → brigitte             win=         pick=
+[2026-03-26T01:38:58.163+0000] {overwatch2_pipeline.py:366} INFO -   XPath → cassidy              win=         pick=
+[2026-03-26T01:38:58.164+0000] {overwatch2_pipeline.py:366} INFO -   XPath → dva                  win=         pick=
+[2026-03-26T01:38:58.165+0000] {overwatch2_pipeline.py:366} INFO -   XPath → domina               win=         pick=
+[2026-03-26T01:38:58.165+0000] {overwatch2_pipeline.py:366} INFO -   XPath → doomfist             win=         pick=
+[2026-03-26T01:38:58.165+0000] {overwatch2_pipeline.py:368} INFO - ✅ Validacion XPath completada sin errores
+[2026-03-26T01:38:58.168+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-03-26T01:38:58.169+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-26T01:38:58.181+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=overwatch2_pipeline, task_id=validar_xpath, execution_date=20260326T013834, start_date=20260326T013857, end_date=20260326T013858
+[2026-03-26T01:38:58.232+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-03-26T01:38:58.261+0000] {taskinstance.py:3482} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-03-26T01:38:58.264+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

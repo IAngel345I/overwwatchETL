@@ -1,0 +1,19 @@
+[2026-03-11T15:26:42.597+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-11T15:26:42.667+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: overwatch2_pipeline.actualizar_ranking_rol manual__2026-03-11T15:11:10.027909+00:00 [queued]>
+[2026-03-11T15:26:42.680+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: overwatch2_pipeline.actualizar_ranking_rol manual__2026-03-11T15:11:10.027909+00:00 [queued]>
+[2026-03-11T15:26:42.681+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 3
+[2026-03-11T15:26:42.703+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): actualizar_ranking_rol> on 2026-03-11 15:11:10.027909+00:00
+[2026-03-11T15:26:42.726+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=198) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-03-11T15:26:42.733+0000] {standard_task_runner.py:63} INFO - Started process 204 to run task
+[2026-03-11T15:26:42.725+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'overwatch2_pipeline', 'actualizar_ranking_rol', 'manual__2026-03-11T15:11:10.027909+00:00', '--job-id', '66', '--raw', '--subdir', 'DAGS_FOLDER/overwatch2_pipeline.py', '--cfg-path', '/tmp/tmp8_k_mdq_']
+[2026-03-11T15:26:42.734+0000] {standard_task_runner.py:91} INFO - Job 66: Subtask actualizar_ranking_rol
+[2026-03-11T15:26:42.841+0000] {task_command.py:426} INFO - Running <TaskInstance: overwatch2_pipeline.actualizar_ranking_rol manual__2026-03-11T15:11:10.027909+00:00 [running]> on host d57c35dcabbf
+[2026-03-11T15:26:42.975+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='angel' AIRFLOW_CTX_DAG_ID='overwatch2_pipeline' AIRFLOW_CTX_TASK_ID='actualizar_ranking_rol' AIRFLOW_CTX_EXECUTION_DATE='2026-03-11T15:11:10.027909+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-11T15:11:10.027909+00:00'
+[2026-03-11T15:26:42.976+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-11T15:26:43.182+0000] {overwatch2_pipeline.py:315} INFO - ✅ ranking_por_rol actualizado
+[2026-03-11T15:26:43.183+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-03-11T15:26:43.184+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-11T15:26:43.198+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=overwatch2_pipeline, task_id=actualizar_ranking_rol, execution_date=20260311T151110, start_date=20260311T152642, end_date=20260311T152643
+[2026-03-11T15:26:43.237+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-03-11T15:26:43.264+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-11T15:26:43.266+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,17 @@
+# Entornos virtuales (No los subas, pesan mucho)
+venv/
+.venv/
+env/
+
+# Python (Archivos temporales de ejecución)
+__pycache__/
+*.pyc
+
+# Docker y Airflow (Logs y bases de datos locales)
+logs/
+*.log
+*.db
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db

@@ -1,0 +1,30 @@
+[2026-04-19T22:46:30.841+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-19T22:46:30.952+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: overwatch2_pipeline.crear_indices scheduled__2026-04-18T06:00:00+00:00 [queued]>
+[2026-04-19T22:46:30.993+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: overwatch2_pipeline.crear_indices scheduled__2026-04-18T06:00:00+00:00 [queued]>
+[2026-04-19T22:46:31.020+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 3
+[2026-04-19T22:46:31.112+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): crear_indices> on 2026-04-18 06:00:00+00:00
+[2026-04-19T22:46:31.153+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=178) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-04-19T22:46:31.144+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'overwatch2_pipeline', 'crear_indices', 'scheduled__2026-04-18T06:00:00+00:00', '--job-id', '1366', '--raw', '--subdir', 'DAGS_FOLDER/overwatch2_pipeline.py', '--cfg-path', '/tmp/tmp993hwlzx']
+[2026-04-19T22:46:31.162+0000] {standard_task_runner.py:63} INFO - Started process 179 to run task
+[2026-04-19T22:46:31.168+0000] {standard_task_runner.py:91} INFO - Job 1366: Subtask crear_indices
+[2026-04-19T22:46:31.401+0000] {task_command.py:426} INFO - Running <TaskInstance: overwatch2_pipeline.crear_indices scheduled__2026-04-18T06:00:00+00:00 [running]> on host e74ce4de20a5
+[2026-04-19T22:46:31.681+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='angel' AIRFLOW_CTX_DAG_ID='overwatch2_pipeline' AIRFLOW_CTX_TASK_ID='crear_indices' AIRFLOW_CTX_EXECUTION_DATE='2026-04-18T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-04-18T06:00:00+00:00'
+[2026-04-19T22:46:31.682+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-04-19T22:46:31.814+0000] {overwatch2_pipeline.py:263} INFO -   ✅ fact_id_heroe
+[2026-04-19T22:46:31.816+0000] {overwatch2_pipeline.py:263} INFO -   ✅ fact_id_tiempo
+[2026-04-19T22:46:31.819+0000] {overwatch2_pipeline.py:263} INFO -   ✅ fact_id_contexto
+[2026-04-19T22:46:31.822+0000] {overwatch2_pipeline.py:263} INFO -   ✅ fact_id_escenario
+[2026-04-19T22:46:31.825+0000] {overwatch2_pipeline.py:263} INFO -   ✅ tiempo_fecha
+[2026-04-19T22:46:31.828+0000] {overwatch2_pipeline.py:263} INFO -   ✅ heroe_nombre
+[2026-04-19T22:46:31.830+0000] {overwatch2_pipeline.py:263} INFO -   ✅ heroe_rol
+[2026-04-19T22:46:31.833+0000] {overwatch2_pipeline.py:263} INFO -   ✅ contexto_plat
+[2026-04-19T22:46:31.835+0000] {overwatch2_pipeline.py:263} INFO -   ✅ contexto_modo
+[2026-04-19T22:46:31.838+0000] {overwatch2_pipeline.py:263} INFO -   ✅ escenario_region
+[2026-04-19T22:46:31.840+0000] {overwatch2_pipeline.py:263} INFO -   ✅ escenario_mapa
+[2026-04-19T22:46:31.842+0000] {overwatch2_pipeline.py:267} INFO - ✅ Indices creados/verificados correctamente
+[2026-04-19T22:46:31.843+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-04-19T22:46:31.845+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-04-19T22:46:31.865+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=overwatch2_pipeline, task_id=crear_indices, execution_date=20260418T060000, start_date=20260419T224630, end_date=20260419T224631
+[2026-04-19T22:46:31.917+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-04-19T22:46:31.965+0000] {taskinstance.py:3482} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-04-19T22:46:31.968+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

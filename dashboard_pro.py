@@ -400,7 +400,7 @@ app.layout = html.Div(children=[
                 id='main-table',
                 style_table={'overflowX': 'auto'},
                 style_cell={'backgroundColor':'rgba(0,0,0,0)', 'color':'#fff', 'borderBottom':'1px solid rgba(255,255,255,0.05)', 'padding':'12px', 'fontSize':'13px', 'textAlign':'left'},
-                style_header={'backgroundColor':'rgba(249, 158, 26, 0.1)', 'fontWeight':'900', 'color':C['ow_orange'], 'borderBottom':f'2px solid {C['ow_orange']}', 'textTransform':'uppercase'},
+                style_header={'backgroundColor':'rgba(249, 158, 26, 0.1)', 'fontWeight':'900', 'color':C['ow_orange'], 'borderBottom':f"2px solid {C['ow_orange']}", 'textTransform':'uppercase'},
                 page_size=10, sort_action="native",
                 style_data_conditional=[{'if': {'column_id': 'win_rate', 'filter_query': '{win_rate} > 52'}, 'color': C['win'], 'fontWeight': 'bold'}]
             )

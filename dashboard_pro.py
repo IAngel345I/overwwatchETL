@@ -306,7 +306,7 @@ def make_chart_container(id, title, icon, width=6, color=C['ow_orange']):
 
 app.layout = html.Div(children=[
     # Header Premium
-    html.Div(style={'padding':'25px 60px', 'backgroundColor':'rgba(0,0,0,0.92)', 'borderBottom':f'3px solid {C['ow_orange']}', 'display':'flex', 'justifyContent':'space-between', 'alignItems':'center', 'position':'sticky', 'top':0, 'zIndex':5000, 'backdropFilter':'blur(25px)'}, children=[
+    html.Div(style={'padding':'25px 60px', 'backgroundColor':'rgba(0,0,0,0.92)', 'borderBottom':f"3px solid {C['ow_orange']}", 'display':'flex', 'justifyContent':'space-between', 'alignItems':'center', 'position':'sticky', 'top':0, 'zIndex':5000, 'backdropFilter':'blur(25px)'}, children=[
         html.Div([
             html.Img(src="https://upload.wikimedia.org/wikipedia/commons/5/55/Overwatch_circle_logo.svg", style={'height':'45px', 'marginRight':'20px'}),
             html.Span("OVERWATCH", style={'fontWeight':'900', 'fontSize':'32px', 'letterSpacing':'8px', 'color':'#fff'}),

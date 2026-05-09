@@ -7,3 +7,5 @@ dash-bootstrap-components
 pandas
 plotly
 gunicorn
+sqlalchemy
+psycopg2-binary

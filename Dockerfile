@@ -22,5 +22,5 @@ COPY . .
 # Expone el puerto 8052
 EXPOSE 8052
 
-# Comando para lanzar la app (ahora buscando dashboard_pro en la raiz)
-CMD ["gunicorn", "--bind", "0.0.0.0:8052", "dashboard_pro:server"]
+# Comando para lanzar la app (usando el puerto dinámico de Render)
+CMD gunicorn --bind 0.0.0.0:$PORT dashboard_pro:server

@@ -10,18 +10,19 @@ from urllib.parse import quote
 
 import os
 
+from sqlalchemy import create_engine
+
 # =============================================================
 # CONFIGURACION Y DATOS
 # =============================================================
-# Si existe la variable de entorno (en la nube), la usa. Si no, usa tu local (para pruebas).
 DATABASE_URL = os.environ.get("DATABASE_URL", "postgresql://postgres:planta40@localhost:5432/overwatch2")
+# Usamos un engine de SQLAlchemy (más eficiente en memoria)
+engine = create_engine(DATABASE_URL)
 
 def query(sql):
     try:
-        # Psycopg2 acepta la URL directamente
-        conn = psycopg2.connect(DATABASE_URL)
-        df = pd.read_sql(sql, conn)
-        conn.close()
+        with engine.connect() as conn:
+            df = pd.read_sql(sql, conn)
         return df
     except Exception as e:
         print(f"Error DB: {e}")

@@ -23,14 +23,33 @@ engine = create_engine(DATABASE_URL)
 
 @st.cache_data(ttl=600)
 def load_data():
-    SQL_RATES = "SELECT * FROM public.fact_hero_rates"
-    SQL_STATS = "SELECT * FROM public.fact_hero_stats"
+    SQL_RATES = """
+        SELECT h.nombre_heroe, h.rol, c.plataforma, c.modo_juego, 
+               e.region, e.mapa, f.win_rate, f.pick_rate,
+               t.fecha, t.dia_semana, t.mes, t.anio
+        FROM public.fact_hero_rates f
+        JOIN public.dim_heroes h ON f.id_heroe = h.id_heroe
+        JOIN public.dim_contexto c ON f.id_contexto = c.id_contexto
+        JOIN public.dim_escenario e ON f.id_escenario = e.id_escenario
+        JOIN public.dim_tiempo t ON f.id_tiempo = t.id_tiempo
+    """
+    SQL_STATS = """
+        SELECT h.nombre_heroe, h.rol, c.plataforma, c.modo_juego,
+               e.region, e.mapa, f.eliminations_avg, f.deaths_avg, f.damage_avg, f.healing_avg,
+               t.fecha, t.dia_semana, t.mes, t.anio
+        FROM public.fact_hero_stats f
+        JOIN public.dim_heroes h ON f.id_heroe = h.id_heroe
+        JOIN public.dim_contexto c ON f.id_contexto = c.id_contexto
+        JOIN public.dim_escenario e ON f.id_escenario = e.id_escenario
+        JOIN public.dim_tiempo t ON f.id_tiempo = t.id_tiempo
+    """
     try:
         with engine.connect() as conn:
             df1 = pd.read_sql(SQL_RATES, conn)
             df2 = pd.read_sql(SQL_STATS, conn)
         return pd.concat([df1, df2], ignore_index=True, sort=False)
-    except:
+    except Exception as e:
+        print(f"Error: {e}")
         return pd.DataFrame()
 
 # Título

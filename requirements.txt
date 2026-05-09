@@ -2,10 +2,8 @@ fastapi==0.115.0
 uvicorn[standard]==0.30.0
 requests==2.32.3
 psycopg2-binary==2.9.9
-dash
-dash-bootstrap-components
+streamlit
 pandas
 plotly
-gunicorn
 sqlalchemy
 psycopg2-binary
